@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Vila RARA - Costinești</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="logo">Vila RARA - Costinești</h1>
+      <button id="navToggle" class="nav-toggle" aria-label="Meniu">☰</button>
+      <nav id="mainNav" class="main-nav">
+        <a href="#home">Acasă</a>
+        <a href="#rooms">Camere</a>
+        <a href="#about">Despre</a>
+        <a href="#benefits">Facilități</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Bine ați venit la Vila Rara – Costinești</h2>
+          <p>Relaxare, confort și vacanțe de neuitat, la doar 5 minute de plajă!</p>
+          <a class="btn" href="#contact">Contactează-ne</a>
+        </div>
+        <div class="hero-image">
+          <!-- Schimbă src cu imaginea ta (ex: assets/images/hero.jpg) -->
+          <img src="assets/images/hero-placeholder.jpg" alt="Vila Rara - exterior" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About / Story -->
+    <section id="about" class="section">
+      <div class="container">
+        <h3>Our Story – Povestea Vilei Rara</h3>
+        <p>
+          Vila Rara a fost construită cu gândul la vacanțele de vară care rămân în suflet.
+          Situată într-o zonă liniștită din Costinești, la doar câteva minute de plajă, vila noastră
+          este un loc cald și primitor, unde oaspeții vin ca turiști și pleacă ca prieteni.
+        </p>
+        <div class="two-col">
+          <img src="assets/images/story-1.jpg" alt="foișor" />
+          <img src="assets/images/story-2.jpg" alt="curte" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Rooms -->
+    <section id="rooms" class="section alt">
+      <div class="container">
+        <h3>Camere &amp; Cazare</h3>
+        <p>Vila dispune de 17 camere spațioase, dotate cu baie proprie, aer condiționat, frigider și WiFi.</p>
+
+        <div class="rooms-grid">
+          <article class="room-card">
+            <img src="assets/images/room-2p.jpg" alt="Camera 2 persoane" />
+            <h4>Camera 2 persoane</h4>
+            <p>Confortabilă, ideală pentru cupluri.</p>
+          </article>
+
+          <article class="room-card">
+            <img src="assets/images/room-3p.jpg" alt="Camera 3 persoane" />
+            <h4>Camera 3 persoane</h4>
+            <p>Perfectă pentru familii sau grupuri mici.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits / Facilities -->
+    <section id="benefits" class="section">
+      <div class="container">
+        <h3>Rest & Relax – Odihnă și Relaxare</h3>
+        <ul class="benefits-list">
+          <li>Foișor umbros</li>
+          <li>Zona de grătar</li>
+          <li>Curte interioară cu verdeață</li>
+          <li>Acces rapid la plajă</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section alt">
+      <div class="container">
+        <h3>Recenziile oaspeților</h3>
+        <div class="reviews">
+          <blockquote>
+            <p>„O vacanță exact cum ne-am dorit”</p>
+            <cite>— Irina și Marius, București</cite>
+          </blockquote>
+          <blockquote>
+            <p>„Perfect pentru familii!”</p>
+            <cite>— Familia Lungu, Iași</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+      <div class="container">
+        <h3>Hai să ținem legătura</h3>
+        <p>Telefon rezervări: <strong>0722 350 174 / 0722 742 693</strong><br/>
+           Email: <a href="mailto:vilarara2023@gmail.com">vilarara2023@gmail.com</a></p>
+
+        <div class="contact-grid">
+          <form class="contact-form" action="#" onsubmit="alert('Formular simulare — configurează un backend sau Formspree'); return false;">
+            <label>Nume<input required placeholder="Numele tău" /></label>
+            <label>Email<input type="email" required placeholder="adresa@exemplu.com" /></label>
+            <label>Mesaj<textarea required placeholder="Întrebare sau rezervare"></textarea></label>
+            <button class="btn" type="submit">Trimite</button>
+          </form>
+
+          <div class="map-box">
+            <h4>Adresa</h4>
+            <p>Strada Răsăritului nr. 12, Costinești, România</p>
+            <!-- Poți înlocui cu iframe Google Maps -->
+            <div class="map-placeholder">Harta (iframe Google Maps aici)</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Vila Rara. Toate drepturile rezervate.</p>
+      <p>0722 350 174 / 0722 742 693 • vilarara2023@gmail.com</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
